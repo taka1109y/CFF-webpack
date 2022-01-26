@@ -1,0 +1,27 @@
+{
+  "name": "firebase-webpack",
+  "version": "1.0.0",
+  "description": "webpackを用いたfirebaseプロジェクトの練習",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taka1109y/firebase-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taka1109y/firebase-webpack/issues"
+  },
+  "homepage": "https://github.com/taka1109y/firebase-webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
